@@ -14,14 +14,15 @@ body {
 }
 
 .header {
-  height: 95px;
   background-color: #2d303a;
+  border-bottom: 6px solid #323746;
 }
 
 .header__flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 30px 0;
 }
 
 .header__logo h1 {
@@ -37,11 +38,77 @@ body {
 }
 
 .header__nav ul li {
-  padding: 0 15px;
+  padding-left: 29px;
+  padding-top: 5px;
 }
 
 .header__nav a {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.header__nav a:hover {
+  color: #f15e57;
+}
+
+.device {
+  height: 600px;
+  background-color: #f15e57;
+}
+
+.device_flex-container {
+  display: flex;
+  align-items: center;
+  padding-top: 53px;
+}
+
+.device_item {
+  padding-left: 72px;
+}
+
+.device_item:nth-child(2) {
+  padding-left: 100px;
+}
+
+.services_heading {
+  padding-top: 60px;
+}
+
+.services_heading h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #666d89;
+  padding-bottom: 16px;
+}
+
+.services_heading p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #666d89;
+  padding-bottom: 33px;
+  line-height: 31px;
+}
+
+.services_items {
+  display: flex;
+  flex-wrap: wrap;
+  color: #666d89;
+}
+
+.services_item {
+  width: 313px;
+}
+
+.services_item h3 {
+  font-size: 18px;
+  padding-bottom: 18px;
+}
+
+.services_item p {
+  font-size: 12px;
 }
