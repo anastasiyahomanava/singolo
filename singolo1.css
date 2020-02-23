@@ -121,3 +121,19 @@ body {
 .services_item-text {
   padding-left: 20px;
 }
+
+.left-arrow {
+  position: absolute;
+  left: 0px;
+  top: 400px;
+}
+
+.right-arrow {
+  position: absolute;
+  right: 0px;
+  top: 400px;
+}
+
+.left-arrow:hover, .right-arrow:hover  {
+  background: #666d89;
+}
