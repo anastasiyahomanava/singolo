@@ -99,12 +99,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   color: #666d89;
+  padding-top: 10px;
 }
 
 .services_item {
   display: flex;
-  align-items: center;
   width: 313px;
+  padding-bottom: 30px;
 }
 
 .services_item h3 {
@@ -114,7 +115,7 @@ body {
 
 .services_item p {
   font-size: 12px;
-  line-height: 2em;
+  line-height: 1.6em;
 }
 
 .services_item-text {
