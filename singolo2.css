@@ -28,10 +28,10 @@ body {
 
 .portfolio__heading p,
 .about-us__heading p {
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 18px;
   line-height: 30px;
-  color: #666d89;
+  color: #767e9e;
 }
 
 .portfolio__filter-list {
@@ -81,6 +81,7 @@ body {
   line-height: 18px;
   color: #666d89;
   font-weight: 900;
+  padding: 15px 0;
 }
 
 .about-us__people-item p {
@@ -88,9 +89,26 @@ body {
   line-height: 22px;
   color: #767e9e;
   font-weight: 400;
+  padding-bottom: 30px;
 }
 
 .about-us__people-links {
   display: flex;
   list-style-type: none;
+}
+
+.about-us__people-links li {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #767e9e;
+  text-align: center;
+  vertical-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  color: #666d89;
+}
+
+.about-us__people-links li:hover {
+  color: #2d303a;
+  cursor: pointer;
 }
