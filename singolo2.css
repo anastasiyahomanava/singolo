@@ -109,7 +109,8 @@ body {
 }
 
 .about-us__people-links li:hover {
-  color: #2d303a;
+  color: #e83d27;
+  border: 1px solid #e83d27;
   cursor: pointer;
 }
 
