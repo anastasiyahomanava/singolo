@@ -31,3 +31,40 @@ body {
   line-height: 30px;
   color: #666d89;
 }
+
+.portfolio__filter-list {
+  display: flex;
+  list-style-type: none;
+  padding: 15px 0;
+}
+
+.portfolio__filter-list a {
+  color: #666d89;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 7px;
+  border-radius: 7px;
+  border: 1px solid #666d89;
+}
+
+.portfolio__filter-list a:hover {
+  color: #d3d4d8;
+  border: 1px solid #d3d4d8;
+}
+
+.portfolio__filter-list li {
+  padding-right: 10px;
+}
+
+.portfolio__images {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 70px;
+}
+
+.potrfolio__images-item {
+  width: 220px;
+  height: 187px;
+  border: 1px solid red;
+}
