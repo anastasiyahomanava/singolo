@@ -12,3 +12,22 @@ body {
   max-width: 940px;
   margin: 0 auto;
 }
+
+.portfolio {
+  background-color: #2d303a;
+}
+
+.portfolio__heading h2, .about-us__heading h2 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 17,86px;
+  color: #666d89;
+  padding: 65px 0 30px;
+}
+
+.portfolio__heading p, .about-us__heading p {
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 30px;
+  color: #666d89;
+}
