@@ -17,15 +17,17 @@ body {
   background-color: #2d303a;
 }
 
-.portfolio__heading h2, .about-us__heading h2 {
+.portfolio__heading h2,
+.about-us__heading h2 {
   font-weight: 900;
   font-size: 30px;
-  line-height: 17,86px;
+  line-height: 17, 86px;
   color: #666d89;
   padding: 65px 0 30px;
 }
 
-.portfolio__heading p, .about-us__heading p {
+.portfolio__heading p,
+.about-us__heading p {
   font-weight: lighter;
   font-size: 18px;
   line-height: 30px;
@@ -63,8 +65,32 @@ body {
   padding-bottom: 70px;
 }
 
-.potrfolio__images-item {
+.portfolio__images-item {
   width: 220px;
   height: 187px;
   border: 1px solid red;
+}
+
+.about-us__people {
+  display: flex;
+  padding-top: 55px;
+}
+
+.about-us__people-item h3 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-weight: 900;
+}
+
+.about-us__people-item p {
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-weight: 400;
+}
+
+.about-us__people-links {
+  display: flex;
+  list-style-type: none;
 }
