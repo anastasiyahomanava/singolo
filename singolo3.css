@@ -88,3 +88,8 @@ textarea:-moz-placeholder {
   font-size: 12px;
   line-height: 21.56px;
 }
+
+.quote__flex-container {
+  padding: 48px 0 72px;
+  display: flex;
+}
