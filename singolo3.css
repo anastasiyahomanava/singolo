@@ -30,3 +30,61 @@ body {
   line-height: 30px;
   letter-spacing: 0.04em;
 }
+
+.quote__contacts h3 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 17.86px;
+  padding-bottom: 15px;
+  letter-spacing: 0.04em;
+}
+
+.quote__contacts p {
+  font-size: 12px;
+  line-height: 21.56px;
+  letter-spacing: 0.04em;
+}
+
+.quote__contacts ul {
+  list-style-type: none;
+  padding-top: 30px;
+}
+
+.quote__form input {
+  width: 620px;
+  padding: 12px;
+  background-color: #d6564f;
+  border: 1px solid transparent;
+  margin-bottom: 16px;
+}
+
+.quote__form textarea {
+  width: 620px;
+  padding: 12px;
+  background-color: #d6564f;
+  border: 1px solid transparent;
+}
+
+input::-webkit-input-placeholder {
+  color: #f48c8f;
+  font-size: 12px;
+  line-height: 21.56px;
+}
+
+input:-moz-placeholder {
+  color: #f48c8f;
+  font-size: 12px;
+  line-height: 21.56px;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #f48c8f;
+  font-size: 12px;
+  line-height: 21.56px;
+}
+
+textarea:-moz-placeholder {
+  color: #f48c8f;
+  font-size: 12px;
+  line-height: 21.56px;
+}
