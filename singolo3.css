@@ -12,3 +12,12 @@ body {
   max-width: 940px;
   margin: 0 auto;
 }
+
+.quote {
+  background-color: #f15e57;
+  color: #f0d8d9;
+}
+
+.quote__heading {
+
+}
