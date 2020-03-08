@@ -51,6 +51,10 @@ body {
   padding-top: 30px;
 }
 
+.quote__contacts li {
+  padding-bottom: 11px;
+}
+
 .quote__form input {
   width: 620px;
   padding: 12px;
