@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
   <link rel="stylesheet" href="singolo3.css">
   <title>Singolo - part 3</title>
 </head>
@@ -21,10 +24,11 @@
       <div class="quote__flex-container">
         <div class="quote__form">
           <form action="#">
-            <input type="text" placeholder="Name (Required)">
-            <input type="e-mail" placeholder="E-mail (Required)">
+            <input type="text" placeholder="Name (Required)" required>
+            <input type="e-mail" placeholder="E-mail (Required)" required>
             <input type="text" placeholder="Subject">
             <textarea name="" id="" cols="30" rows="10" placeholder="Describe your project in detail..."></textarea>
+            <input type="submit" value="Submit">
           </form>
         </div>
         <div class="quote__contacts">
@@ -41,6 +45,23 @@
       </div>
     </div>
   </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__flex-container">
+        <div class="footer__copyright">
+          <p>&copy; Copyright 2013</p>
+        </div>
+        <div class="footer__links">
+          <ul>
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-google-plus-g"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

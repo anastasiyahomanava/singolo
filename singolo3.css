@@ -56,6 +56,7 @@ body {
   background-color: #d6564f;
   border: 1px solid transparent;
   margin-bottom: 16px;
+  border-radius: 4px;
 }
 
 .quote__form textarea {
@@ -63,6 +64,7 @@ body {
   padding: 12px;
   background-color: #d6564f;
   border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 input::-webkit-input-placeholder {
@@ -92,4 +94,37 @@ textarea:-moz-placeholder {
 .quote__flex-container {
   padding: 48px 0 72px;
   display: flex;
+}
+
+.footer {
+  background-color: #2d303a;
+  color: #666d89;
+}
+
+.footer__links ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.footer__links li {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #666d89;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.footer__links li:hover {
+  color: #d6564f;
+  border: 1px solid #d6564f;
+  cursor: pointer;
+}
+
+.footer__flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
 }
