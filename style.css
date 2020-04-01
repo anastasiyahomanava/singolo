@@ -129,13 +129,13 @@ body {
 
 .left-arrow {
   position: absolute;
-  left: 0px;
+  left: 40px;
   top: 375px;
 }
 
 .right-arrow {
   position: absolute;
-  right: 0px;
+  right: 40px;
   top: 375px;
 }
 
